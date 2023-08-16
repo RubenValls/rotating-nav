@@ -14,6 +14,7 @@ body{
 }
 
 .content {
+    padding-top: 50px;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -34,4 +35,10 @@ body{
 
 small {
     font-size: smaller;
+}
+
+.circle-container{
+    position: fixed;
+    top: -100px;
+    left: -100px;
 }
