@@ -19,8 +19,19 @@ body{
     margin: auto;
     width: 80%;
     max-width: 1000px;
+    text-align: justify;
+    line-height: 1.5;
 }
 
 .content img {
     width: 100%;
+}
+
+.content small {
+    color: #555;
+    font-style: italic;
+}
+
+small {
+    font-size: smaller;
 }
