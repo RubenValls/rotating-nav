@@ -1,15 +1,7 @@
-const openBtn = document.querySelector('#open');
-const closeBtn = document.querySelector('#close');
-const circle = document.querySelector('.circle');
-const container = document.querySelector('.container');
+const open = document.getElementById('open')
+const close = document.getElementById('close')
+const container = document.querySelector('.container')
 
-const openMenu = () => {
-    circle.style.transform = 'rotate(-89deg)';
-}
+open.addEventListener('click', () => container.classList.add('show-nav'))
 
-const closeMenu = () => {
-    circle.style.transform = 'rotate(1deg)';
-}
-
-openBtn.addEventListener("click", openMenu);
-closeBtn.addEventListener("click", closeMenu);
+close.addEventListener('click', () => container.classList.remove('show-nav'))
